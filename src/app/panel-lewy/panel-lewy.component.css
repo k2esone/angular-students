@@ -1,0 +1,38 @@
+.lewy-panel {
+  display: inline-block;
+  background-color: red;
+  width: 30%;
+}
+
+.lewy-panel-flex {
+  display: flex;
+  flex-direction: column;
+  /*background-color: red;*/
+}
+
+.naglowek-nawigacji {
+  margin: 10px auto;
+  padding: 4px;
+  border-radius: 4px;
+  background-color: aqua;
+}
+
+.panel-guzikow {
+  margin: 10px auto;
+  padding: 4px;
+}
+
+.guzik-nawigacja {
+  margin: 0 10px;
+  border: 1px solid black;
+  width: 80%;
+  background-color: bisque;
+}
+
+.guzik-nawigacja:hover {
+  background-color: burlywood;
+}
+
+.guzik-nawigacja:active {
+  background-color: green;
+}

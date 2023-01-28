@@ -1,0 +1,12 @@
+.panel-student-list {
+  display: flex;
+  flex: 1 1 0;
+  background-color: bisque;
+  width: 100%;
+}
+
+.wiersz-naglowkowy {
+  border-bottom: 1px solid black;
+  font-weight: bold;
+  padding: 2px 1px 4px 1px;
+}

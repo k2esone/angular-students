@@ -1,0 +1,24 @@
+<div class="panel-student-list">
+  <div class="container">
+    <div class="row wiersz-naglowkowy">
+      <div class="col-1">Id</div>
+      <div class="col-2">Imie</div>
+      <div class="col-3">Nazwisko</div>
+      <div class="col-3">Data ur.</div>
+      <div class="col-3"></div>
+    </div>
+    <div class="row" *ngFor="let student of studentService.studentList">
+      <div class="col-1">{{student.id}}</div>
+      <div class="col-2">{{student.imie}}</div>
+      <div class="col-3">{{student.nazwisko}}</div>
+      <div class="col-3">{{student.dataUrodzenia}}</div>
+      <!--  Create Read Update Delete    -->
+      <!--  CRUD    -->
+      <div class="col-3">
+        <button class="btn btn-primary" (click)="usunStudenta(student.id)">
+          Usuń
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
